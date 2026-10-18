@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "name": "The Milano Oxford",
+      "color": "Cognac",
+      "short_spec": "Cognac · Full-Grain Leather",
+      "description": "Cognac · Full-grain leather upper, hand-stitched welt, leather sole. The boardroom classic.",
+      "image": "/images/the-milano-oxford.webp",
+      "is_new": true
+    },
+    {
+      "name": "The Patina Brogue",
+      "color": "Hand-burnished tan",
+      "short_spec": "Hand-Burnished Tan · Brogue Detailing",
+      "description": "Hand-burnished tan · Brogue perforations, rich patina finish that deepens with every wear.",
+      "image": "/images/the-patina-brogue.webp",
+      "is_new": true
+    },
+    {
+      "name": "The Wingtip Derby",
+      "color": "Honey tan",
+      "short_spec": "Honey Tan · Wingtip Brogue",
+      "description": "Honey tan · Classic wingtip brogue on an open-lace derby — equally at home with suits and denim.",
+      "image": "/images/the-wingtip-derby.webp",
+      "is_new": false
+    },
+    {
+      "name": "The Verona Loafer",
+      "color": "Chocolate suede",
+      "short_spec": "Chocolate Suede · Penny Loafer",
+      "description": "Chocolate suede · Soft penny loafer with a cushioned insole — slip on, and you're dressed.",
+      "image": "/images/the-verona-loafer.webp",
+      "is_new": true
+    },
+    {
+      "name": "The Chelsea Boot",
+      "color": "Midnight black",
+      "short_spec": "Midnight Black · Polished Leather",
+      "description": "Midnight black · Polished leather Chelsea with elastic gussets — sharp, clean, unmistakable.",
+      "image": "/images/the-chelsea-boot.jpeg",
+      "is_new": false
+    },
+    {
+      "name": "The Country Brogue",
+      "color": "Tan grain",
+      "short_spec": "Tan Grain · All-Terrain Sole",
+      "description": "Tan grain · Sturdy brogue on an all-terrain sole — heritage looks, built for everyday miles.",
+      "image": "/images/the-country-brogue.webp",
+      "is_new": false
+    }
+  ]
+}

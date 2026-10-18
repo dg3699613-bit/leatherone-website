@@ -1,0 +1,48 @@
+# Leatherone CMS — edit the shoe catalog from your phone.
+# Log in at /admin with your Leatherone account (Netlify Identity).
+backend:
+  name: git-gateway
+  branch: main
+
+# Uploaded shoe photos go here:
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "products"
+    label: "Shoe Collection"
+    files:
+      - file: "products.json"
+        label: "Products"
+        name: "catalog"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - label: "Shoe Name"
+                name: "name"
+                widget: "string"
+                hint: "e.g. The Milano Oxford"
+              - label: "Colour"
+                name: "color"
+                widget: "string"
+                hint: "e.g. Cognac"
+              - label: "Short Spec (photo caption)"
+                name: "short_spec"
+                widget: "string"
+                required: false
+                hint: "e.g. Cognac · Full-Grain Leather"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+                hint: "One or two lines about the shoe"
+              - label: "Photo"
+                name: "image"
+                widget: "image"
+                hint: "Upload the shoe photo here"
+              - label: "Show 'New' badge"
+                name: "is_new"
+                widget: "boolean"
+                default: false
